@@ -3767,7 +3767,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-notitle .port
 	position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);	
+    transform: translate(-50%, -50%);
 	z-index: 3;
 	padding: 0px 0px 0px;
 	vertical-align: center;
@@ -9034,7 +9034,7 @@ body:not(.device-touch) .social-icon i {
 	background-color: white;
 	line-height: 44px;
 	padding: 0 0 0 36px;
-	margin-bottom: 5px;
+	/* margin-bottom: 5px; */
 	border-top: 0;
 }
 
@@ -13610,5 +13610,3 @@ body:not(.no-transition) #wrapper,
 	-webkit-text-stroke: 0px !important;
 	text-shadow: none !important;
 }
-
-

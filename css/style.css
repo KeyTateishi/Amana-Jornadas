@@ -10679,7 +10679,7 @@ blockquote.float-right {
 
 .owl-carousel .owl-nav [class*=owl-] {
 	position: absolute;
-	top: 50%;
+	top: 18%;
 	margin-top: -18px;
 	left: -36px;
 	zoom: 1;
@@ -11959,11 +11959,8 @@ button.toast-close-button {
 
 #copyrights i.footer-icon {
 	position: relative;
-	top: 1px;
-	font-size: 14px;
-	width: 14px;
+	font-size: 30px;
 	text-align: center;
-	margin-right: 3px;
 }
 
 .copyright-links a {

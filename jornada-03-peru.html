@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Document Title
@@ -299,9 +300,59 @@
 					</div>
 				</section>
 			</div>
-
-
 		</section><!-- #content end -->
+
+		<a href="jornadas.html">
+			<div class="icon-angle-left return-to-jornadas"></div>
+		</a>
+		<a href="#" data-toggle="modal" data-target=".03peru" class="btn btn-success botao-fixo">Quero Ir!</a>
+		<div class="modal fade 03peru" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-md">
+				<div class="modal-body">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title" id="myModalLabel">Peru</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						</div>
+						<div class="modal-body">
+							<div data-animate="fadeIn" class="contact-widget col_full">
+								<div class="contact-form-result"></div>
+								<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+									<div class="form-process"></div>
+									<div class="col_full">
+										<label for="template-contactform-name">Nome <small>*</small></label>
+										<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+									</div>
+									<div class="col_full">
+										<label for="template-contactform-email">E-mail <small>*</small></label>
+										<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+									</div>
+									<div class="col_full">
+										<label for="template-contactform-phone">Telefone <small>*</small></label>
+										<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="required sm-form-control" />
+									</div>
+									<div class="col_full hidden">
+										<label for="template-contactform-subject"></label>
+										<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="Reserva/Jornada" class="sm-form-control" />
+									</div>
+									<div class="col_full hidden">
+										<label for="template-contactform-service"></label>
+										<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+											<option value="Peru"></option>
+										</select>
+									</div>
+									<div class="col_full">
+										<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Enviar</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
 
 		<!-- Footer
 		============================================= -->

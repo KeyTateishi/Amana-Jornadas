@@ -4,3 +4,42 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
+
+.return-to-jornadas {
+	display: inline;
+	z-index: 299;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	background-color: #333;
+	background-color: rgba(0,0,0,0.3);
+	font-size: 20px;
+	line-height: 36px;
+	text-align: center;
+	color: #FFF;
+	top: auto;
+	left: auto;
+	right: 75px;
+	bottom: 30px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+body:not(.device-touch) .return-to-jornadas {
+	transition: background-color .2s linear;
+	-webkit-transition: background-color .2s linear;
+	-o-transition: background-color .2s linear;
+}
+
+.return-to-jornadas:hover { background-color: #06d6a0; }
+
+.botao-fixo {
+	display: inline;
+	z-index: 299;
+	position: fixed;
+	text-align: center;
+	top: auto;
+	left: auto;
+	right: 123px;
+	bottom: 30px;
+}

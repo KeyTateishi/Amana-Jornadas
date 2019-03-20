@@ -10,6 +10,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-TFB4X9C');</script>
 <!-- End Google Tag Manager -->
 
+<!-- Global site tag (gtag.js) - Google Ads: 756204546 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-756204546"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-756204546');
+</script>
+
+<!-- Event snippet for Lead do site conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-756204546/HFavCKmol5cBEIKIy-gC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130115260-1"></script>
 	<script>
